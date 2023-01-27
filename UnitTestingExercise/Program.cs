@@ -6,7 +6,11 @@ namespace UnitTestingExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var calc = new Calculator();
+
+           var answer = calc.Add(4, 8, 4);
+
+            Console.WriteLine(answer);
         }
     }
 }
